@@ -13,6 +13,9 @@ Validated the lab environment by confirming the device name and user context.
 hostname
 whoami
 
+
+
+
 ## 🔹 Step 2 — File Creation, Modification, and Deletion Telemetry
 
 Simulated normal and suspicious file activity to generate Microsoft Defender telemetry.
