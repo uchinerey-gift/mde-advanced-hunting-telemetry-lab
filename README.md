@@ -22,3 +22,4 @@ Simulated normal and suspicious file activity to generate Microsoft Defender tel
 New-Item hi-today-1.txt
 New-Item hi-today-2.txt
 Remove-Item hi-today-1.txt
+
