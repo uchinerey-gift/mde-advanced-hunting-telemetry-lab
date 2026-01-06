@@ -12,3 +12,8 @@ Validated the lab environment by confirming the device name and user context.
 ```powershell
 hostname
 whoami
+```
+
+New-Item hi-today-1.txt
+New-Item hi-today-2.txt
+Remove-Item hi-today-1.txt
