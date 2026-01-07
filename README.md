@@ -44,4 +44,5 @@ DeviceFileEvents
 | where FileName startswith "hi-today"
 | order by Timestamp desc
 | take 50
+```
 
