@@ -76,4 +76,17 @@ DeviceFileEvents
 Screenshot — Process Events in Microsoft Defender (Advanced Hunting)  
 ![Step 3 — Process Events in Defender Advanced Hunting](images/step3-process-events-advanced-hunting.png)
 
+## 🔹 Step 4 — Network Connection Telemetry
+
+Simulated outbound network connections to generate Microsoft Defender telemetry for host-level network activity.
+
+**PowerShell Commands**
+```powershell
+Test-NetConnection -ComputerName 8.8.8.8 -Port 443
+Test-NetConnection -ComputerName 1.1.1.1 -Port 443
+Test-NetConnection -ComputerName 8.8.8.8 -Port 53
+hostname
+```
+
+
 
