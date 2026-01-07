@@ -30,11 +30,17 @@ New-Item hi-today-2.txt
 Remove-Item hi-today-1.txt
 ```
 
-**Screenshot — File Activity Executed in PowerShell**  
-![File Activity PowerShell](images/step2-file-ops-powershell.png)
+Screenshot — File Activity Executed in PowerShell  
+![Step 2 — PowerShell File Activity](images/step2-file-activity-powershell.png)
 
-**Screenshot — File Events in Microsoft Defender (Advanced Hunting)**  
-![File Events KQL](images/step2-file-events-kql.png)
+### Advanced Hunting Query — File Events
+
+**Screenshot — File Events Logged in Microsoft Defender Advanced Hunting**  
+![Step 2 — Defender Advanced Hunting File Events](images/step2-file-events-advanced-hunting.png)
+
+
+
+
 
 
 
