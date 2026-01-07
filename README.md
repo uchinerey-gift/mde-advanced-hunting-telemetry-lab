@@ -15,8 +15,8 @@ whoami
 ```
 ---
 
-**Screenshot — Environment Validation**  
-![Environment Validation](images/step1-host-validation.png)
+**Screenshot — Environment Validation**
+![Step 1 — Environment Validation](images/step1-environment-validation.png)
 
 
 ## 🔹 Step 2 — File Creation, Modification & Deletion Telemetry
