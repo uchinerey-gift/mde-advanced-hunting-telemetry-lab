@@ -48,3 +48,32 @@ DeviceFileEvents
 Screenshot — File Events in Microsoft Defender (Advanced Hunting)  
 ![Step 2 — File Events in Defender Advanced Hunting](images/step2-file-events-advanced-hunting.png)
 
+## 🔹 Step 3 — Suspicious Process Execution Telemetry
+
+Generated endpoint telemetry by simulating suspicious command activity in PowerShell.
+
+**PowerShell Command**
+```powershell
+cd $env:USERPROFILE/Desktop
+echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' >> big-malware-today.exe
+```
+
+Screenshot — Process Execution in PowerShell  
+![Step 3 — PowerShell Process Execution](images/step3-process-execution-powershell.png)
+
+
+### Advanced Hunting Query — Process Events
+
+```kusto
+DeviceFileEvents
+| where DeviceName == "chi-chi-vm"
+| where FileName contains "big-malware"
+| project Timestamp, DeviceName, ActionType, FileName, FolderPath, InitiatingProcessFileName
+| order by Timestamp desc
+| take 50
+```
+
+Screenshot — Process Events in Microsoft Defender (Advanced Hunting)  
+![Step 3 — Process Events in Defender Advanced Hunting](images/step3-process-events-advanced-hunting.png)
+
+
