@@ -33,14 +33,15 @@ Remove-Item hi-today-1.txt
 Screenshot — File Activity Executed in PowerShell  
 ![Step 2 — PowerShell File Activity](images/step2-file-activity-powershell.png)
 
+Screenshot — File Events in Microsoft Defender (Advanced Hunting)  
+![Step 2 — File Events in Defender Advanced Hunting](images/step2-file-events-advanced-hunting.png)
+
 ### Advanced Hunting Query — File Events
 
-**Screenshot — File Events Logged in Microsoft Defender Advanced Hunting**  
-![Step 2 — Defender Advanced Hunting File Events](images/step2-file-events-advanced-hunting.png)
-
-
-
-
-
-
+```kusto
+DeviceFileEvents
+| where DeviceName == "chi-chi-vm"
+| where FileName startswith "hi-today"
+| order by Timestamp desc
+| take 50
 
