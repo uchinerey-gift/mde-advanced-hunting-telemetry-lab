@@ -30,11 +30,10 @@ New-Item hi-today-2.txt
 Remove-Item hi-today-1.txt
 ```
 
+
 Screenshot — File Activity Executed in PowerShell  
 ![Step 2 — PowerShell File Activity](images/step2-file-activity-powershell.png)
 
-Screenshot — File Events in Microsoft Defender (Advanced Hunting)  
-![Step 2 — File Events in Defender Advanced Hunting](images/step2-file-events-advanced-hunting.png)
 
 ### Advanced Hunting Query — File Events
 
@@ -45,4 +44,7 @@ DeviceFileEvents
 | order by Timestamp desc
 | take 50
 ```
+
+Screenshot — File Events in Microsoft Defender (Advanced Hunting)  
+![Step 2 — File Events in Defender Advanced Hunting](images/step2-file-events-advanced-hunting.png)
 
