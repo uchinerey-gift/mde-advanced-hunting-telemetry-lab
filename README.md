@@ -41,7 +41,7 @@ Remove-Item hi-today-1.txt
 ```
 ---
 
-Screenshot — File Activity Executed in PowerShell  
+**Screenshot — File Activity Executed in PowerShell**  
 ![Step 2 — PowerShell File Activity](images/step2-file-activity-powershell.png)
 
 ### Advanced Hunting Query — File Events
@@ -55,7 +55,7 @@ DeviceFileEvents
 ```
 ---
 
-Screenshot — File Events in Microsoft Defender (Advanced Hunting)  
+**Screenshot — File Events in Microsoft Defender (Advanced Hunting)**  
 ![Step 2 — File Events in Defender Advanced Hunting](images/step2-file-events-advanced-hunting.png)
 
 ## 🔹 Step 3 — Suspicious Process Execution Telemetry
@@ -69,7 +69,7 @@ echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' >> b
 ```
 ---
 
-Screenshot — Process Execution in PowerShell  
+**Screenshot — Process Execution in PowerShell** 
 ![Step 3 — PowerShell Process Execution](images/step3-process-execution-powershell.png)
 
 ### Advanced Hunting Query — Process Events
@@ -84,7 +84,7 @@ DeviceFileEvents
 ```
 ---
 
-Screenshot — Process Events in Microsoft Defender (Advanced Hunting)  
+**Screenshot — Process Events in Microsoft Defender (Advanced Hunting)**  
 ![Step 3 — Process Events in Defender Advanced Hunting](images/step3-process-events-advanced-hunting.png)
 
 ## 🔹 Step 4 — Network Connection Telemetry
@@ -112,7 +112,7 @@ DeviceNetworkEvents
 | take 50
 ```
 ---
-Screenshot — Network Events in Microsoft Defender (Advanced Hunting)  
+**Screenshot — Network Events in Microsoft Defender (Advanced Hunting)**  
 ![Step 4 — Network Events in Defender Advanced Hunting](images/step4-network-events-advanced-hunting.png)
 
 ---
