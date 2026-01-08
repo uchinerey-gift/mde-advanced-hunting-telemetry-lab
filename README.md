@@ -6,6 +6,12 @@
 
 A hands-on Microsoft Defender for Endpoint hunting lab demonstrating file, process, and network telemetry generation with PowerShell and KQL analysis.
 
+**What this lab demonstrates**
+
+- How real endpoint activity surfaces in Microsoft Defender telemetry
+- How to trace file → process → network events using KQL
+- How analysts validate visibility and investigate suspicious behavior
+
 ---
 
 ## 🔹 Step 1 — Environment & Host Validation
