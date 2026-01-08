@@ -192,10 +192,10 @@ This lab demonstrates practical analyst capabilities:
 
 ## 🚀 Next Steps (Planned Enhancements)
 
-- Add alert-triage workflow using the Microsoft Defender Incidents queue
-- Convert hunting queries into reusable detection rules
-- Map activity to MITRE ATT&CK techniques
-- Export results and publish a mini investigation report
+- Add alert-triage workflow using the Microsoft Defender Incidents queue  
+- Convert hunting queries into reusable detection rules  
+- Export results and publish a mini investigation report  
+- (Optional) Expand into an adversary simulation lab in a future project
 
 ---
 
