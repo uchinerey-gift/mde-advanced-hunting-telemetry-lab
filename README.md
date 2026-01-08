@@ -102,6 +102,9 @@ DeviceNetworkEvents
 | take 50
 ```
 ---
+Screenshot — Network Events in Microsoft Defender (Advanced Hunting)  
+![Step 4 — Network Events in Defender Advanced Hunting](images/step4-network-events-advanced-hunting.png)
+
 
 
 
