@@ -75,7 +75,7 @@ echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' >> b
 ### Advanced Hunting Query — Process Events
 
 ```kusto
-DeviceFileEvents
+DeviceProcessEvents
 | where DeviceName == "chi-chi-vm"
 | where FileName contains "big-malware"
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, InitiatingProcessFileName
