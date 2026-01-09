@@ -14,6 +14,16 @@ A hands-on Microsoft Defender for Endpoint hunting lab demonstrating file, proce
 
 ---
 
+## 📌 Why This Lab Matters
+
+This lab mirrors real SOC investigation workflows by showing how
+endpoint activity is generated, captured, and analyzed using Microsoft
+Defender Advanced Hunting. The focus is not alert response, but validating
+telemetry visibility and correlating events across file, process, and
+network layers.
+
+---
+
 ## 🔹 Step 1 — Environment & Host Validation
 
 Validated the lab environment by confirming the device name and user context.
